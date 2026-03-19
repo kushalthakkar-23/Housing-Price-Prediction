@@ -1,61 +1,41 @@
-🏠 Housing Price Prediction using Machine Learning
+🏠 House Price Prediction App
 
-📌 Project Overview
+A Machine Learning web app that predicts house prices based on user inputs like income and number of rooms. Built using Python, Streamlit, and Scikit-learn.
 
-This project predicts housing prices using Machine Learning models.
-The goal is to estimate house prices based on features like income, rooms, population, and location.
+🚧 Live Demo: Coming Soon
 
- 📊 Dataset
+📌 Features
 
-* California Housing Dataset
-* Total Rows: 20,640
-* Features: 10+
+* Predict house prices instantly
+* Simple and interactive UI
+* Built with Machine Learning model (Random Forest)
+* Real-time user input handling
 
-⚙️ Technologies Used
+🛠️ Tech Stack
 
 * Python
+* Streamlit
 * Pandas
-* NumPy
-* Matplotlib
 * Scikit-learn
 
-🧠 Models Used
+📂 Project Structure
 
-* Linear Regression
-* Random Forest Regressor
+```
+house-price-project/
+│
+├── app.py
+├── housing.csv
+├── requirements.txt
+└── README.md
+```
 
-📈 Model Performance
+🎯 Future Improvements
 
-   Model               R² Score 
+* Add more input features (bedrooms, location, etc.)
+* Improve model accuracy
+* Deploy on cloud
+* Better UI design
 
-Linear Regression       0.62     
-Random Forest           0.81     
-
-📉 Error Metrics (Random Forest)
-
-* MAE: 31,636
-* RMSE: 48,977
-
-🔍 Key Insights
-
-* Median income is the most important feature affecting house prices
-* Random Forest performs better than Linear Regression
-* Proper data preprocessing improves model accuracy
-
-🚀 How to Run
-
-1. Clone the repository
-2. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter Notebook
-
-📌 Conclusion
-
-Random Forest model provides good accuracy and can be further improved using hyperparameter tuning.
-
-🙌 Author
+👨‍💻 Author
 
 Kushal Thakkar
