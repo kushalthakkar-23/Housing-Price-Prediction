@@ -18,16 +18,6 @@ A Machine Learning web app that predicts house prices based on user inputs like 
 * Pandas
 * Scikit-learn
 
-📂 Project Structure
-
-```
-house-price-project/
-│
-├── app.py
-├── housing.csv
-├── requirements.txt
-└── README.md
-```
 
 🎯 Future Improvements
 
